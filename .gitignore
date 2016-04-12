@@ -1,0 +1,8 @@
+# This file is used to ignore files which are generated
+*.autosave
+
+# qtcreator generated files
+*.txt.user
+
+build\msvc-86-jom\build
+tmp/
