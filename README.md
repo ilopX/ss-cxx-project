@@ -1,3 +1,8 @@
-Simple structure template C++ project
+# Simple structure template C++ project
 
-[] Add cmake commands
+## CMake 
+```
+-DYOURNAME_BUILD_EXAMLES - Builds all examples
+-DYOURNAME_BUILD_TEST - Builds all test
+	-DGTEST_REBUILD_LIBS - Rebuild google test libs
+```
