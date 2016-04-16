@@ -4,3 +4,5 @@
 # qtcreator generated files
 *.txt.user
 
+build\msvc-86-jom\build
+tmp/
