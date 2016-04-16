@@ -25,6 +25,18 @@ $ git submodule init
 $ git submodule update
 ```
 
+## Сhange original repository
+
+```
+git remote set-url origin you_url
+```
+
+replace all in repository
+
+```
+git push origin master --force
+``
+
 ## CMake 
 ```
 -DYOURNAME_BUILD_EXAMLES - Builds all examples
@@ -34,4 +46,6 @@ $ git submodule update
 
 ## TODO
 - [x] add all modules in folder modules
-- [] add cmake external tools auto download google test framework if it was not found
+- [ ] add cmake external tools auto download google test framework if it was not found
+- [ ] add folder structure description 
+- [x] add description: change original repository
