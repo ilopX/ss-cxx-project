@@ -33,5 +33,5 @@ $ git submodule update
 ```
 
 ## TODO
-- [] add all modules in folder modules
+- [x] add all modules in folder modules
 - [] add cmake external tools auto download google test framework if it was not found

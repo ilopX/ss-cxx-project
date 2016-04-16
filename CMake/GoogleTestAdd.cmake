@@ -4,12 +4,11 @@ option(GTEST_REBUILD_LIBS "Rebuild google test libs" ON)
 
 #################################
 # Set paths
-
-
-SET(GBIN ${CMAKE_BINARY_DIR}/googletest)
+SET(GBIN ${CMAKE_BINARY_DIR}/modules/googletest)
 SET(GBIN_M ${GBIN}/googlemock)
 
-SET(GSRC ${CMAKE_CURRENT_SOURCE_DIR}/../googletest)
+SET(GSRC ${CMAKE_CURRENT_SOURCE_DIR}/../modules/googletest)
+
 SET(GINC ${GSRC}/googletest/include)
 SET(GIN_M ${GSRC}/googlemock/include)
 
