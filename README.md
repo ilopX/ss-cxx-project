@@ -1,41 +1,37 @@
-# Simple structure template C++ project
+# Simple structure template C++, CMake, GoogleTest project
 
-## Git install
+## Git clone
 ```
-$ git clone https://github.com/ilopX/sst-cxx-project.git .
+$ git clone -b cmake --recursive  https://github.com/ilopX/sst-cxx-project.git .
 ```
-
-if you want download modules (googletest on other) add 
-
-```
---recursive
-```
-
-for example:
-
-```
-$ git clone --recursive https://github.com/ilopX/sst-cxx-project.git .
-```
-
 or
-
 ```
-$ git clone https://github.com/ilopX/sst-cxx-project.git .
+$ git clone -b cmake https://github.com/ilopX/sst-cxx-project.git .
+```
+
+init module (googletest):
+```
 $ git submodule init
 $ git submodule update
 ```
 
+
+
 ## Сhange original repository
+rename branch
+```
+$ git branch -m master
+```
 
 ```
-git remote set-url origin you_url
+$ git remote remove origin
+```
+or
+```
+$ git remote set-url origin you_url
+$ git push origin master --force
 ```
 
-replace all in repository
-
-```
-git push origin master --force
-``
 
 ## CMake 
 ```
